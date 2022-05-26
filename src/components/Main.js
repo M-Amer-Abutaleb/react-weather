@@ -61,7 +61,7 @@ const Main = () => {
 	// BODY
 	return (
 		<main className='main'>
-			<nav className='container'>
+			<nav className='container pt-3'>
 				<div className='logo'>instaweather</div>
 				<div className='buttons'>
 					<button
@@ -180,7 +180,7 @@ const Main = () => {
 					)}
 				</div>
 			</section>
-			<footer className='text-start'>
+			<footer className='text-start pb-3'>
 				<h3>
 					Made by <span className='text-warning'>Mohamed Amer</span>{' '}
 				</h3>
