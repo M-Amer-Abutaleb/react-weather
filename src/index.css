@@ -1,22 +1,26 @@
 body{
   font-family: sans-serif;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 main{
-  margin: 6%;
-  padding: 3% 2%;
   color: white;
-  height:80vh;
-  width: 90vw;
-  box-sizing: border-box;
-  background: url("https://images.unsplash.com/photo-1488866022504-f2584929ca5f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162") no-repeat center;
+  
+  padding: 10% 3%;
+  
+  height: 100%;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1488866022504-f2584929ca5f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162") ;
+  background-repeat: no-repeat;
   image-resolution: 100%;
-  background-position: center;
+  background-size: cover;
 }
 
 .main{
   box-sizing: border-box;
+  
 }
 .firstTemp{
   font-size: 35px;
@@ -50,11 +54,16 @@ nav .logo{
   
 }
 
+
+
 .nav-item{
   display: inline-flex;
   flex-direction: row;
   margin-bottom: 0.2%;
   
+}
+.card-body{
+  border-top: 1.5px solid white;
 }
 
 .custom-button{
@@ -76,7 +85,7 @@ nav .logo{
 .hourly li{
   display: flex;
   flex-direction: column;
-  width: 100%;
+ 
   margin: 1%;
   padding: 1%;
   font-size: 15px;
