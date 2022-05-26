@@ -152,20 +152,6 @@ const Main = () => {
 								</h2>
 								<h4>{cTemp ? 35 + '°' : 69 + '°'}</h4>
 							</li>
-							<li>
-								<p>{getHour(5)}</p>
-								<h2>
-									<WiNightAltRain />
-								</h2>
-								<h4>{cTemp ? 45 + '°' : 82 + '°'}</h4>
-							</li>
-							<li>
-								<p>{getHour(6)}</p>
-								<h2>
-									<WiDayWindy />
-								</h2>
-								<h4>{cTemp ? 49 + '°' : 88 + '°'}</h4>
-							</li>
 						</ul>
 					) : (
 						<ul className='daily'>
